@@ -65,16 +65,16 @@ function predictTomorrowWeather(probabilities) {
 function redirectToWeatherWebsite(tomorrowWeather) {
     switch (tomorrowWeather) {
         case 'rainy':
-            window.location.href = 'https://rainy.com';
+            window.location.href = 'https://shresth3025.github.io/highrainfall_ai/';
             break;
         case 'lightrain':
-            window.location.href = 'https://lightrain.com';
+            window.location.href = 'https://shresth3025.github.io/light_rain/';
             break;
         case 'cloudy':
-            window.location.href = 'https://cloudy.com';
+            window.location.href = 'https://shresth3025.github.io/cloudy/';
             break;
         case 'sunshine':
-            window.location.href = 'https://sunshine.com';
+            window.location.href = 'https://shresth3025.github.io/sunshine/';
             break;
         default:
             break;
